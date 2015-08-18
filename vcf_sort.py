@@ -33,3 +33,8 @@ for l in sloci:
     out.write_record(loci[l])
 
 
+print "segundo for "
+
+
+for v in variante 
+try
