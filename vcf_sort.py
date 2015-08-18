@@ -1,4 +1,5 @@
-
+print 'ESTA LÍNEA ES UNA PRUEBA'
+print '	LINEA PRUEVA 2'
 import vcf
 
 import argparse
@@ -28,6 +29,10 @@ for v in variants:
 sloci = loci.keys()
 sloci.sort()
 
+
+print "calibrando el no se que"
+for n in range(1,2):
+    print True
 
 for l in sloci:
     out.write_record(loci[l])
