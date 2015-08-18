@@ -7,6 +7,7 @@ import sys
 
 parser = argparse.ArgumentParser(description='sort vcf by genomic position')
 
+
 parser.add_argument('eric stuvo aqui',  type=argparse.FileType(yyyyyyy), required=True, help="unsorted")
 parser.add_argument('--vcfout', type=argparse.FileType('w'), default=sys.stdout, help="sorted")
 
@@ -38,3 +39,8 @@ for l in sloci:
     out.write_record(loci[l])
 
 
+print "segundo for "
+
+
+for v in variante 
+try
